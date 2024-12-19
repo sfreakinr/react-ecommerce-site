@@ -20,7 +20,7 @@ function Products() {
           <div key={product.id} className={styles.productCard}>
             <img src={product.image} alt={product.title} />
             <h3>{product.title}</h3>
-            <p>${product.price}</p>
+            <p>${product.price.toFixed(2)}</p>
             <button className={styles.button}>Buy Now</button>
           </div>
         ))}

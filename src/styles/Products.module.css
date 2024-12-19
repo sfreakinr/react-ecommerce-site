@@ -1,22 +1,29 @@
 .productsPage {
-    padding: 20px;
+    padding: 30px;
+    background: linear-gradient(to right, #e3ffe7, #d9e7ff);
     text-align: center;
+    min-height: 100vh;
+  }
+  
+  .productsPage h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
   }
   
   .productsGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    margin-top: 20px;
   }
   
   .productCard {
     background-color: white;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: transform 0.2s;
+    transition: transform 0.2s ease;
   }
   
   .productCard:hover {
@@ -24,14 +31,26 @@
   }
   
   .productCard img {
-    width: 150px;
-    height: 200px;
+    width: 100px;
+    height: 150px;
     object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .productCard h3 {
+    font-size: 1.1rem;
     margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .productCard p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
   }
   
   .button {
-    margin-top: 10px;
     padding: 10px 15px;
     background-color: #28a745;
     color: white;

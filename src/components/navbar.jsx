@@ -5,7 +5,7 @@ import styles from "../styles/Navbar.module.css";
 function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <h1 className={styles.logo}>SRShop</h1>
+      <div className={styles.logo}>ShopEasy</div>
       <div className={styles.links}>
         <Link to="/">Home</Link>
         <Link to="/login">Login</Link>
