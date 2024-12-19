@@ -1,0 +1,67 @@
+/* Overall home page styling */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 123, 255, 0.8), rgba(0, 123, 255, 0.6)), 
+      url("https://source.unsplash.com/1920x1080/?shopping,store");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Hero section styling */
+  .hero {
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  /* Button container */
+  .buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Button styling */
+  .shopButton, .loginButton {
+    padding: 12px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .shopButton {
+    background-color: #28a745;
+  }
+  
+  .shopButton:hover {
+    background-color: #218838;
+  }
+  
+  .loginButton {
+    background-color: #ffc107;
+  }
+  
+  .loginButton:hover {
+    background-color: #e0a800;
+  }
+  
